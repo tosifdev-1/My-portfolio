@@ -212,3 +212,12 @@ a{
     height: 40px;
     width: 48px;
 }
+.content-area{
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    align-items: center;
+}
+#content{
+    width: 900px;
+}
