@@ -221,3 +221,33 @@ a{
 #content{
     width: 900px;
 }
+.content-container{
+    display: flex;
+    justify-content: space-evenly;
+
+    margin-left: -40px;
+}
+.sp {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #ddd;
+    background-color: white;
+    text-align: center;
+    border-radius: 7px;
+    color: black;
+    box-shadow: 4px 4px 10px rgba(99, 97, 97, 0.973);
+    transition: box-shadow 0.3s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sp:hover{
+    cursor: pointer;
+    background-color: rgb(236, 231, 240);
+}
+
+.img-html{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
